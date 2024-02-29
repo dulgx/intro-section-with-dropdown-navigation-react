@@ -23,20 +23,20 @@ const Nav = () => {
                         </div>
                     </li>
 
-                    <li><a href="#">Company  </a> <img src={arrowDown} alt="down" />
+                    <li id='Company'><a href="#">Company  </a> <img src={arrowDown} alt="down" />
                         <div id='DropdownCompany'>
                             <a href="#">History</a>
                             <a href="#">Our Team</a>
                             <a href="#">Blog</a>
                         </div>
                     </li>
-                    <li><a href="#">Careers  </a></li>
-                    <li><a href="#">About  </a></li>
+                    <li id='Careers'><a href="#">Careers  </a></li>
+                    <li id='About'><a href="#">About  </a></li>
                 </ul>
             </div>
             <div>
                 <ul className='login'>
-                    <li><a href="#">Login</a></li>
+                    <li id='Login'><a href="#">Login</a></li>
                     <li id='Register'><a href="#" >Register</a></li>
                 </ul>
             </div>
