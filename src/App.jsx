@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import './styles.scss';
+import './nav-style.scss'
+import './main-style.scss'
 import Nav from './components/nav'
 import Main from './components/main'
 
